@@ -1,0 +1,15 @@
+{
+  "background_color": "#fff8ec",
+  "description": "Madinah Market \u2014 Aurora, Colorado \u00b7 100% halal. Fire-grilled kabobs, fresh bread and saffron rice. Order pickup or delivery in Aurora, CO.",
+  "display": "standalone",
+  "icons": [
+    { "purpose": "any", "sizes": "192x192", "src": "/icons/icon-192.png", "type": "image/png" },
+    { "purpose": "any", "sizes": "512x512", "src": "/icons/icon-512.png", "type": "image/png" },
+    { "purpose": "maskable", "sizes": "512x512", "src": "/icons/icon-512.png", "type": "image/png" }
+  ],
+  "name": "Madinah Market",
+  "scope": "/",
+  "short_name": "Madinah",
+  "start_url": "/",
+  "theme_color": "#0f2b4c"
+}
