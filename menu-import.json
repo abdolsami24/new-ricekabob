@@ -1,0 +1,1983 @@
+{
+  "format": "madinah-menu-import/v1",
+  "generated_at": "2026-11-19",
+  "source": "Copied item-by-item from www.denverhalal.com/menu (GloriaFood) on 2026-11-17",
+  "currency": "USD",
+  "notes": "All option groups are optional multi-select checkboxes. price_delta_cents is added to the item price per selected choice. Standalone drink prices intentionally differ from add-on prices (e.g. Can Soda 159 standalone vs +149 as add-on) — keep both. 2026-11-19 update: 'Meal Deal' groups (sandwiches +500, platters +324) and the family-meal soda groups are single-pick (single: true); Meal Deal choices carry hide_price: true — the popup shows their price only in the Add-button total.",
+  "categories": [
+    "Platters",
+    "Sandwiches",
+    "Hot Bread Hot Steak",
+    "Side Orders",
+    "Kabobs Only",
+    "Drinks"
+  ],
+  "items": [
+    {
+      "id": "combo-platter",
+      "name": "Combo Platter",
+      "description": "Chicken and gyros over rice with salad and sauce.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#5",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-shawarma-rice",
+      "name": "Chicken Shawarma over Rice",
+      "description": "Marinated chicken shawarma served over rice.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#6",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamb-gyro-rice",
+      "name": "Lamb Gyro over Rice",
+      "description": "Seasoned lamb gyro slices over rice.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#7",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-biryani",
+      "name": "Chicken Biryani",
+      "description": "Fragrant spiced rice with chicken.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#8",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Add Fries",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD FRENCH FRIES",
+              "price_delta_cents": 249
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kobideh-kabob",
+      "name": "Kobideh Kabob",
+      "description": "Two skewers of seasoned ground beef kabob over rice.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#9",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Grill Tomatoes",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 2 grill tomatoes",
+              "price_delta_cents": 249
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-nuggets-fries",
+      "name": "Chicken Nuggets with French Fries",
+      "description": "7 pieces of chicken nuggets with french fries.",
+      "price_cents": 899,
+      "category": "Platters",
+      "number": "#10",
+      "option_groups": [
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-tikka-kabob",
+      "name": "Chicken Tikka Kabob",
+      "description": "Grilled marinated chicken tikka over rice.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#11",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Grill Tomatoes",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 2 grill tomatoes",
+              "price_delta_cents": 249
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamb-shank",
+      "name": "Lamb Shank over Rice",
+      "description": "Slow-cooked tender lamb shank over rice.",
+      "price_cents": 1375,
+      "category": "Platters",
+      "number": "#12",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sultani-kabob",
+      "name": "Sultani Kabob",
+      "description": "One skewer kobideh and one skewer chicken kabob over rice.",
+      "price_cents": 1375,
+      "category": "Platters",
+      "number": "#13",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Grill Tomatoes",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 2 grill tomatoes",
+              "price_delta_cents": 249
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "falafel-platter",
+      "name": "Falafel Platter",
+      "description": "Falafel over rice with salad and tahini.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#14",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fry-fish-rice",
+      "name": "Fry Fish over Rice",
+      "description": "Crispy fried fish served over rice.",
+      "price_cents": 1175,
+      "category": "Platters",
+      "number": "#15",
+      "option_groups": [
+        {
+          "name": "Extras",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "ADD EXTRA RICE",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA FRENCH FRIES",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "ADD EXTRA GYROS",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD EXTRA SHAWARMA",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD PITA BREAD",
+              "price_delta_cents": 125
+            },
+            {
+              "name": "ADD KOBIDEH KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "ADD CHICKEN KABOB",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "CAN SODA",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "BOTTLE SODA",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "BOTTLE OF WATER",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — Pita Bread + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — Pita Bread + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 324,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-wings-fries",
+      "name": "Chicken Wings with Fries",
+      "description": "Chicken wings served with french fries.",
+      "price_cents": 899,
+      "category": "Platters",
+      "number": "#16",
+      "option_groups": [
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-meal-deal",
+      "name": "Family Meal Deal",
+      "description": "Serves 4–5 · Rice, 8 Kobideh Kabob, 4 Chicken Kabob, French Fries, Salad, 4 Pita Bread & 4 Coca-Cola (16.9 fl. oz)",
+      "price_cents": 6999,
+      "category": "Platters",
+      "number": "#17",
+      "option_groups": [
+        {
+          "name": "Choose your 4 sodas",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "4 × Coca-Cola (Regular)",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "4 × Diet Coke",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "2 × Coca-Cola (Regular) + 2 × Diet Coke",
+              "price_delta_cents": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-meal-deal-large",
+      "name": "Family Meal Deal",
+      "description": "Serves 8–10 · Rice, 16 Kobideh Kabob, 8 Chicken Kabob, French Fries, Salad, 8 Pita Bread & 8 Coca-Cola (16.9 fl. oz)",
+      "price_cents": 13899,
+      "category": "Platters",
+      "number": "#18",
+      "option_groups": [
+        {
+          "name": "Choose your 8 sodas",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "8 × Coca-Cola (Regular)",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "8 × Diet Coke",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "4 × Coca-Cola (Regular) + 4 × Diet Coke",
+              "price_delta_cents": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-meal-deal-lamb",
+      "name": "Family Meal Deal — Lamb Shank",
+      "description": "Serves 4–5 · Rice, 4 Lamb Shank, French Fries, Salad, 4 Pita Bread & 4 Coca-Cola (16.9 fl. oz)",
+      "price_cents": 6999,
+      "category": "Platters",
+      "number": "#19",
+      "option_groups": [
+        {
+          "name": "Choose your 4 sodas",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "4 × Coca-Cola (Regular)",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "4 × Diet Coke",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "2 × Coca-Cola (Regular) + 2 × Diet Coke",
+              "price_delta_cents": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-meal-deal-lamb-large",
+      "name": "Family Meal Deal — Lamb Shank",
+      "description": "Serves 8–9 · Rice, 8 Lamb Shank, French Fries, Salad, 8 Pita Bread & 8 Coca-Cola (16.9 fl. oz)",
+      "price_cents": 13899,
+      "category": "Platters",
+      "number": "#20",
+      "option_groups": [
+        {
+          "name": "Choose your 8 sodas",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "8 × Coca-Cola (Regular)",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "8 × Diet Coke",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "4 × Coca-Cola (Regular) + 4 × Diet Coke",
+              "price_delta_cents": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gyros-sandwich",
+      "name": "Gyros Sandwich",
+      "description": "Lamb gyros wrapped in warm pita with vegetables and sauce.",
+      "price_cents": 899,
+      "category": "Sandwiches",
+      "number": "#1",
+      "option_groups": [
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "extra meat",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — French Fries + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — French Fries + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-shawarma-sandwich",
+      "name": "Chicken Shawarma Sandwich",
+      "description": "Chicken shawarma wrap with pickles and garlic sauce.",
+      "price_cents": 899,
+      "category": "Sandwiches",
+      "number": "#2",
+      "option_groups": [
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "extra meat",
+              "price_delta_cents": 299
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — French Fries + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — French Fries + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "falafel-sandwich",
+      "name": "Falafel Sandwich",
+      "description": "Falafel wrap with salad and tahini sauce.",
+      "price_cents": 899,
+      "category": "Sandwiches",
+      "number": "#3",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — French Fries + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — French Fries + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beef-burger-fries",
+      "name": "Beef Burger and Fries",
+      "description": "Beef burger served with french fries.",
+      "price_cents": 899,
+      "category": "Sandwiches",
+      "number": "#4",
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        },
+        {
+          "name": "Meal Deal",
+          "type": "single",
+          "required": false,
+          "single": true,
+          "choices": [
+            {
+              "name": "Meal Deal — French Fries + Coca-Cola (Regular), 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            },
+            {
+              "name": "Meal Deal — French Fries + Diet Coke, 16.9 fl. oz",
+              "price_delta_cents": 500,
+              "hide_price": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kobideh-sandwich",
+      "name": "Kobideh Kabob Sandwich",
+      "description": "Ground beef kobideh skewer wrapped in fresh bread.",
+      "price_cents": 999,
+      "category": "Sandwiches",
+      "number": null,
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken-kabob-sandwich",
+      "name": "Chicken Kabob Sandwich",
+      "description": "Grilled chicken kabob wrapped in fresh bread.",
+      "price_cents": 999,
+      "category": "Sandwiches",
+      "number": null,
+      "option_groups": [
+        {
+          "name": "Remove",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "no salad",
+              "price_delta_cents": 0
+            },
+            {
+              "name": "no sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Hot Sauce",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add hot sauce",
+              "price_delta_cents": 0
+            }
+          ]
+        },
+        {
+          "name": "Add-ons",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add french fries",
+              "price_delta_cents": 249
+            },
+            {
+              "name": "add can soda",
+              "price_delta_cents": 149
+            },
+            {
+              "name": "add bottle soda",
+              "price_delta_cents": 259
+            },
+            {
+              "name": "add bottle of water",
+              "price_delta_cents": 75
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "type": "multi",
+          "required": false,
+          "choices": [
+            {
+              "name": "add 3 pcs veggie samosa",
+              "price_delta_cents": 499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot-steak-kobideh",
+      "name": "Hot Bread Hot Steak (Kobideh Kabob)",
+      "description": "Kobideh kabob served sizzling on hot fresh bread.",
+      "price_cents": 1199,
+      "category": "Hot Bread Hot Steak",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "hot-steak-chicken",
+      "name": "Hot Bread Hot Steak (Chicken Kabob)",
+      "description": "Chicken kabob served sizzling on hot fresh bread.",
+      "price_cents": 1199,
+      "category": "Hot Bread Hot Steak",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "french-fries",
+      "name": "French Fries",
+      "description": "Golden crispy french fries.",
+      "price_cents": 249,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "falafel-4pcs",
+      "name": "4 pcs Falafel",
+      "description": "Four pieces of freshly fried falafel.",
+      "price_cents": 329,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "pita-bread",
+      "name": "Pita Bread",
+      "description": "One warm pita bread.",
+      "price_cents": 125,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "plain-rice-plate",
+      "name": "Plain Rice Plate",
+      "description": "A plate of steamed rice.",
+      "price_cents": 499,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "veggie-samosa-3",
+      "name": "3 pcs Veggie Samosa",
+      "description": "Three crispy vegetable samosas.",
+      "price_cents": 499,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "veggie-samosa-10",
+      "name": "10 pcs Veggie Samosa",
+      "description": "Ten crispy vegetable samosas — good for sharing.",
+      "price_cents": 1499,
+      "category": "Side Orders",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "kobideh-skewer",
+      "name": "Kobideh Kabob Only",
+      "description": "One skewer of seasoned ground beef kobideh.",
+      "price_cents": 299,
+      "category": "Kabobs Only",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "chicken-skewer",
+      "name": "Chicken Kabob Only",
+      "description": "One skewer of grilled chicken kabob.",
+      "price_cents": 299,
+      "category": "Kabobs Only",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "grilled-tomatoes",
+      "name": "Grilled Tomatoes",
+      "description": "Two grilled tomatoes.",
+      "price_cents": 249,
+      "category": "Kabobs Only",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "yogurt-drink",
+      "name": "Yogurt Drink",
+      "description": "Chilled yogurt drink (doogh).",
+      "price_cents": 259,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "water-bottle",
+      "name": "Bottle of Water",
+      "description": "Bottled drinking water.",
+      "price_cents": 79,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "can-soda",
+      "name": "Can Soda",
+      "description": "One can of soda.",
+      "price_cents": 159,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "bottle-soda",
+      "name": "Bottle of Soda",
+      "description": "One bottle of soda.",
+      "price_cents": 249,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "ginseng-energy",
+      "name": "Ginseng Energy Drink",
+      "description": "Ginseng energy drink.",
+      "price_cents": 199,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "red-bull",
+      "name": "Red Bull 8oz",
+      "description": "Red Bull energy drink, 8 oz can.",
+      "price_cents": 299,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    },
+    {
+      "id": "monster",
+      "name": "Monster Drink",
+      "description": "Monster energy drink.",
+      "price_cents": 299,
+      "category": "Drinks",
+      "number": null,
+      "option_groups": []
+    }
+  ]
+}
